@@ -1,3 +1,6 @@
+/* NIM/Nama : 13511001/Thea Olivia
+	Praktikkum 1 OOP */
+
 #ifndef point_h
 #define point_h
 

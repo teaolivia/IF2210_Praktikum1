@@ -1,3 +1,6 @@
+/* NIM/Nama : 13511001/Thea Olivia
+	Praktikkum 1 OOP */
+
 #include "point.h"
 
 // Implementasi kelas point
