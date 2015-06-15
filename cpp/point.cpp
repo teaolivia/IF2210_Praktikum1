@@ -35,18 +35,20 @@ void point::SetOrdinat(int newy){
 // Realisasi predikat
 int point::IsOrigin(){
 	// menghasilkan 1 jika current objek adalah origin
-	if x = 0 && y = 0 {
+	if (x = 0 && y = 0) {
 		return 1;
-	} else 0;
+	} else { return 0; }
 } 
 
 // Operator Relasional
 int point::IsEqual(Point P){
 	// menghasilkan 1 jika P == current objek;
     // nilainya absis dan ordinatnya sama
-	if {
-
-	} else {
+	if (P == current)
+	 {
+	 	return 1;
+	 } 
+	 else {
 		return 0;
 	}
 }
@@ -64,7 +66,7 @@ Point point::Add(Point P){
 
 Point point::Add(int dx, int dy){
 	// menghasilkan Point (P.x+dx, P.x+dy)
-	return Point = P.x+dx, P.x+dy
+	return Point = P.x+dx, P.x+dy;
 } 
 
 void point::AddToMe(Point P){
@@ -81,7 +83,14 @@ void point::AddToMe(int dx, int dy){
 // Fungsi lain
 int point::Kuadran(){
 	// menghasilkan kuadran dari Current Objek
-	case {}
+	if (x > 0 && y > 0)
+		{ return cout << " Kuadran 1 "<< endl;}
+	else if (x > 0 && y < 0)
+		{ return cout << "Kuadran 3" << endl; }
+	else if (x < 0 && y > 0)
+		{ return cout << "Kuadran 2" << endl; }
+	else if (x < 0 && y < 0)
+		{ return cout << "Kuadran 4" << endl; }
 } 
 
 // end
